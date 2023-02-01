@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeRating.Api", "RealtimeRating.Api\RealtimeRating.Api.csproj", "{EA588F50-C671-4C02-86BC-E1CC52E6FBED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealtimeRating.Api", "RealtimeRating.Api\RealtimeRating.Api.csproj", "{EA588F50-C671-4C02-86BC-E1CC52E6FBED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeRating.Domain", "RealtimeRating.Domain\RealtimeRating.Domain.csproj", "{22332080-2836-4157-B37A-366E6B612B41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealtimeRating.Domain", "RealtimeRating.Domain\RealtimeRating.Domain.csproj", "{22332080-2836-4157-B37A-366E6B612B41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeRating.Data", "RealtimeRating.Data\RealtimeRating.Data.csproj", "{017656B2-1AC1-4490-ACBA-FF36603D8597}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealtimeRating.Infrastructure", "RealtimeRating.Infrastructure\RealtimeRating.Infrastructure.csproj", "{017656B2-1AC1-4490-ACBA-FF36603D8597}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeRating.Service", "RealtimeRating.Service\RealtimeRating.Service.csproj", "{B6731787-E5BF-4327-B864-D2C531EC753E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeRating.ViewModel", "RealtimeRating.ViewModel\RealtimeRating.ViewModel.csproj", "{FCF2EF8F-F64F-4A38-8629-7F7B6DDD4C97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealtimeRating.Application", "RealtimeRating.Application\RealtimeRating.Application.csproj", "{B6731787-E5BF-4327-B864-D2C531EC753E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +33,6 @@ Global
 		{B6731787-E5BF-4327-B864-D2C531EC753E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6731787-E5BF-4327-B864-D2C531EC753E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6731787-E5BF-4327-B864-D2C531EC753E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FCF2EF8F-F64F-4A38-8629-7F7B6DDD4C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FCF2EF8F-F64F-4A38-8629-7F7B6DDD4C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FCF2EF8F-F64F-4A38-8629-7F7B6DDD4C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FCF2EF8F-F64F-4A38-8629-7F7B6DDD4C97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
