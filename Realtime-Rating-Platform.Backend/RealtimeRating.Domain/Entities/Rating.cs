@@ -5,9 +5,9 @@
         public int Id { get; set; }
         public string Rate { get; set; }
         public int StudentGroupId { get; set; }
-        public int LessonId { get; set;}
+        public int LessonTaskId { get; set;}
 
         public StudentGroup StudentGroup { get; set; }
-        public LessonTask LessonTasks { get; set; }
+        public LessonTask LessonTask { get; set; }
     }
 }
