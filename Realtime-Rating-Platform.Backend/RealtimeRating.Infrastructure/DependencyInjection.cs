@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using RealtimeRating.Application.Abstractions;
 using RealtimeRating.Infrastructure.Persistence;
 
 namespace RealtimeRating.Infrastructure
@@ -14,6 +15,9 @@ namespace RealtimeRating.Infrastructure
             {
                 options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"));
             });
+
+            services.AddScoped<IApplicationDbContext, ApplicationDbContext>();
+
 
 
             return services;

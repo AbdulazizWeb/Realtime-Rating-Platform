@@ -1,15 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using RealtimeRating.Application.Abstractions;
 using RealtimeRating.Domain.Entities;
 
 namespace RealtimeRating.Infrastructure.Persistence
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : DbContext, IApplicationDbContext
     {
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
-
         }
 
         public DbSet<User> Users { get; set; }
